@@ -63,7 +63,7 @@ spec:
           productLoglevel: INFO
           imageRegistry: cp.icr.io/cp
           imageRegistryNamespace: sppc
-          minioStorageClass: thin
+          minioStorageClass: ocs-storagecluster-cephfs
           veleroNamespace: spp-velero
           tm:
             replicas: 3
